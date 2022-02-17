@@ -10,8 +10,8 @@
 
 - things i will add it to the tool soon
 
-- [1] convet the video to mp3
-- [2] i don't know what else give me ideas
+- [1] convet the video to mp3 ✅ 
+- [2] download all channel videos ✅
 
 ----------------------------------------------------
 
