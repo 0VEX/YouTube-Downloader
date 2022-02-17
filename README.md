@@ -1,2 +1,17 @@
 # YouTube-Downloader
-YouTube Downloader is a tool that let you download yt videos or yt playlists in just sec with any resolution you choose
+
+- YouTube Downloader is a tool that i programmed it myself it can let you download any video or playlist you want from youtube in just sec
+
+- with good resolutions
+
+- you can use the exe or the source
+
+----------------------------------------------------
+
+- things i will add it to the tool soon
+
+- [1] convet the video to mp3
+- [2] i don't know what else give me ideas
+
+
+- Thank you !
