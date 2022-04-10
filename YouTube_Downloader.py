@@ -3,8 +3,10 @@
 
 # libraries
 
+from time import sleep, time
 from email.mime import base
 from hashlib import new
+from time import sleep
 from tracemalloc import start
 from click import option
 from httpcore import stream
@@ -57,11 +59,12 @@ while ans:
 
      # gets the video resulution user inputed - x is the input
 
-     stream = yt.streams.filter(res=x).first().download()
+     stream = yt.streams.filter(res=x , progressive=True).first().download()
 
      # teeling user done downloading
 
      print("[+]Done downloading video , you can check it in the same path tool is opend")
+     time.sleep(5)
 
      # downloads the video with resulution chose in the same path tool is opend
 
@@ -94,7 +97,7 @@ while ans:
 
       # start downloadig
 
-      video.streams.filter(res=x).first().download() 
+      video.streams.filter(res=x , progressive=True).first().download() 
 
     elif ans=="3":
      print("\n[+] Welcome to youtube channel videos downloader tool") 
@@ -123,7 +126,7 @@ while ans:
      for video in c.videos:
            # downloading the video with choosen resolution
 
-           video.streams.filter(res=x).first().download()
+           video.streams.filter(res=x , progressive=True).first().download()
     
     elif ans=="4":
      print("\n[+]Welcome to youtube videos converter to mp3 tool") 
@@ -152,13 +155,9 @@ while ans:
      except:
         print("\n[-]Somthing went wrong , please try again")    
 
-
-
-
-
-     
     elif ans=="5":
       print("\n[-]Thanks for using youtube downloader") 
       exit()
+    
     elif ans !="":
       print("\n[-]Not Valid Choice Try again") 
