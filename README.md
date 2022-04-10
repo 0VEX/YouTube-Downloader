@@ -8,10 +8,12 @@
 
 ----------------------------------------------------
 
-- things i will add it to the tool soon
+- Todo List
 
 - [1] convet the video to mp3 ✅ 
 - [2] download all channel videos ✅
+- [3] add search
+- [4] convert the whole project to modern gui
 
 ----------------------------------------------------
 
